@@ -1,0 +1,20 @@
+{
+    "name": "yutsuku/epic-game-store-rss",
+    "description": "RSS/Atom generator for Epic Games store",
+    "type": "project",
+    "authors": [
+        {
+            "name": "moh",
+            "email": "moh@yutsuku.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EpicGameStoreRss\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "mibe/feedwriter": "^1.1"
+    }
+}
